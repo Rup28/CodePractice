@@ -1,0 +1,47 @@
+
+  /* styles.css */
+.login-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+  }
+  
+.login-button:active {
+    background-color: #00408d; 
+    transform: translateY(0); 
+  }
+  .github-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+  }
+  @keyframes slidebg {
+    to {
+      background-position: 200% center;
+    }
+  }
+  h2{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  #image{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+#desc{
+  padding-left: 68px;
+  padding-right: 72px;  
+}
+  
+  
+  
